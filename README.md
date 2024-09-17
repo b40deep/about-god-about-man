@@ -5,9 +5,17 @@ The goal is to interact more with the scripture by being forced to digest it and
 
 # resources
 
-I'm going to try and use this component https://github.com/react-component/swipeout to help add swipe functionality.
+I'm ~~going to try and use~~ using this component https://github.com/react-component/swipeout to help add swipe functionality.
 
-# boilerplate below
+# todo / learnings
+
+-   ✅ swipeout has helped me implement swiping gesture. got it working.
+-   ▶️ change from swipe-to-delete to my own function.
+-   ▶️ import BS and edit `rc-swipeout/assets/index.css` to play nice with it.
+-   ▶️ add a text input at the bottom of the page instead of a pre-filled text display.
+-   ▶️ add edit icon for each list component.
+
+# nextjs boilerplate below
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
