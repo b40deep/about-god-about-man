@@ -19,7 +19,7 @@ export default function Swipe() {
         items: ["00", "01", "02", "03", "04", "05"],
     });
     let onDelete = (value) => {
-        const tempArr = items;
+        const tempArr = items.items;
         setItems({
             items: tempArr.filter((v) => v !== value),
         });
