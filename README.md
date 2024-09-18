@@ -10,10 +10,12 @@ I'm ~~going to try and use~~ using this component https://github.com/react-compo
 # todo / learnings
 
 -   ✅ swipeout has helped me implement swiping gesture. got it working.
+-   ✅ import BS
+-   ▶️ edit `rc-swipeout/assets/index.css` to play nice with it.
 -   ▶️ change from swipe-to-delete to my own function.
--   ▶️ import BS and edit `rc-swipeout/assets/index.css` to play nice with it.
 -   ▶️ add a text input at the bottom of the page instead of a pre-filled text display.
 -   ▶️ add edit icon for each list component.
+-   ▶️🐞 there's a warning in my console from swiping. added the image below.![warning](/images/rc-warning.png)
 
 # nextjs boilerplate below
 

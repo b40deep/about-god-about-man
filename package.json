@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "next": "14.2.11",
     "rc-swipeout": "^2.0.11",
     "react": "^18",

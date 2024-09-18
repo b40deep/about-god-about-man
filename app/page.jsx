@@ -22,6 +22,9 @@ export default function Home() {
                 </ol>
 
                 <div className={styles.ctas}>
+                    <Link href="/acc" className={styles.secondary}>
+                        Go to Acc
+                    </Link>
                     <Link href="/swipe" className={styles.secondary}>
                         Go to Swipe
                     </Link>
