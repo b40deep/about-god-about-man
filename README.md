@@ -11,6 +11,7 @@ I'm ~~going to try and use~~ using this component https://github.com/react-compo
 
 -   ✅ swipeout has helped me implement swiping gesture. got it working.
 -   ✅ import BS
+-   ▶️ 🐞additional revealed btns aren't displaying, only the first is.
 -   ▶️ edit `rc-swipeout/assets/index.css` to play nice with it.
 -   ▶️ change from swipe-to-delete to my own function.
 -   ▶️ add a text input at the bottom of the page instead of a pre-filled text display.

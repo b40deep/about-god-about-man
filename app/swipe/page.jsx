@@ -24,16 +24,29 @@ export default function Swipe() {
             items: tempArr.filter((v) => v !== value),
         });
     };
+    let onChange = (value) => {
+        const tempArr = items.items;
+        console.log(`changed ${value}`);
+    };
     return (
         <div>
-            <p style={{ padding: "16px 30px" }}>多个实例：</p>
+            <p style={{ padding: "16px 30px" }}>something here：</p>
             {items.items.map((item, i) => (
                 <Swipeout
                     autoClose
                     key={i}
                     right={[
                         {
-                            text: `删除${item}`,
+                            text: `some text${item}`,
+                            onPress: () => onChange(item),
+                            style: {
+                                backgroundColor: "blue",
+                                color: "white",
+                                width: 80,
+                            },
+                        },
+                        {
+                            text: `some text${item}`,
                             onPress: () => onDelete(item),
                             style: {
                                 backgroundColor: "#F4333C",
@@ -42,6 +55,12 @@ export default function Swipe() {
                             },
                         },
                     ]}
+                    onOpen={() =>
+                        console.log(
+                            "open, use this to connect next notes to prior ones [like 'Reply' in Whatsapp]"
+                        )
+                    }
+                    onClose={() => console.log("close")}
                 >
                     <div
                         style={{
