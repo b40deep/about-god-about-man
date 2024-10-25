@@ -30,26 +30,46 @@ export default function Swipe() {
     };
     return (
         <div>
-            <p style={{ padding: "16px 30px" }}>something here：</p>
+            <p style={{ padding: "16px 30px" }}>some heading here：</p>
             {items.items.map((item, i) => (
                 <Swipeout
                     autoClose
                     key={i}
-                    right={[
+                    left={[
                         {
                             text: `some text${item}`,
-                            onPress: () => onChange(item),
+                            onPress: () => onDelete(item),
                             style: {
-                                backgroundColor: "blue",
+                                backgroundColor: "#F4333C",
                                 color: "white",
                                 width: 80,
                             },
                         },
                         {
                             text: `some text${item}`,
-                            onPress: () => onDelete(item),
+                            onPress: () => onChange(item),
                             style: {
-                                backgroundColor: "#F4333C",
+                                backgroundColor: "orange",
+                                color: "white",
+                                width: 80,
+                            },
+                        },
+                    ]}
+                    right={[
+                        {
+                            text: `some text${item}`,
+                            onPress: () => onChange(item),
+                            style: {
+                                backgroundColor: "yellow",
+                                color: "white",
+                                width: 80,
+                            },
+                        },
+                        {
+                            text: `some text${item}`,
+                            onPress: () => onChange(item),
+                            style: {
+                                backgroundColor: "#",
                                 color: "white",
                                 width: 80,
                             },

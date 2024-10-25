@@ -5,13 +5,14 @@ The goal is to interact more with the scripture by being forced to digest it and
 
 # resources
 
-I'm ~~going to try and use~~ using this component https://github.com/react-component/swipeout to help add swipe functionality.
+I'm ~~going to try and use~~ using this [rc-swipeout component](https://github.com/react-component/swipeout) to help add swipe functionality.
 
 # todo / learnings
 
 -   ✅ swipeout has helped me implement swiping gesture. got it working.
 -   ✅ import BS
--   ▶️ 🐞additional revealed btns aren't displaying, only the first is.
+-   ✅ additional revealed btns aren't displaying, only the first is.
+-   ▶️ add mouse swipe events too. only touch events working at the moment.
 -   ▶️ edit `rc-swipeout/assets/index.css` to play nice with it.
 -   ▶️ change from swipe-to-delete to my own function.
 -   ▶️ add a text input at the bottom of the page instead of a pre-filled text display.
