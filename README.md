@@ -1,5 +1,7 @@
 # about God | about Man
 
+## the swipe-left-for-God, swipe-right-for-man version.
+
 This is a Bible study tool I'm testing out.
 The goal is to interact more with the scripture by being forced to digest it and split it up into facts/realities about God (and the supernatural), and those about man (and the natural).
 
@@ -12,6 +14,7 @@ I'm ~~going to try and use~~ using this [rc-swipeout component](https://github.c
 -   ✅ swipeout has helped me implement swiping gesture. got it working.
 -   ✅ import BS
 -   ✅ additional revealed btns aren't displaying, only the first is.
+-   🔴 was working on adding mouse events and it reported NextJS outdated. After update, rc-swipeout doesn't work. looks like game over for this path.
 -   ▶️ add mouse swipe events too. only touch events working at the moment.
 -   ▶️ edit `rc-swipeout/assets/index.css` to play nice with it.
 -   ▶️ change from swipe-to-delete to my own function.
